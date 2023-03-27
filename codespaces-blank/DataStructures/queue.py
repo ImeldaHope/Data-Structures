@@ -16,8 +16,8 @@ my_queue.append(500)
 #preview queue content
 print(my_queue)
 
-#remove value from queue using FIFO
+#remove value from queue using FIFO. This will show value that has been removed.
 print(my_queue.popleft())
 
-#preview queue content
+#preview queue content to show remain values.
 print(my_queue)
